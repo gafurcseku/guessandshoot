@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all_apps"
+    tools:context=".Activity.Payment_Options">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            app:srcCompat="@drawable/ic_right_arrow_1"></ImageView>
+
+
+        <ImageView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_guess_and_shoot"></ImageView>ew>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_48sdp"
+            android:text="@string/Payment_Options"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                android:text="@string/nump_20">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20ssp"
+                android:text="$"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:text="@string/slash"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="@string/Year"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white">
+
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Please Insert Your Credit Card's Date"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"></TextView>
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/name_on_card"
+            android:padding="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_10ssp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/number_on_card"
+            android:padding="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_10ssp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/Expired_Date"
+            android:padding="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_10ssp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/Ccv_Number"
+            android:padding="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_10ssp"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_105sdp"
+            android:background="@drawable/shape_btn"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"></Button>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Hisham Ismail saudia/guessshoot-master/app/src/main/res/layout/fragment_dawrena.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail saudia/guessshoot-master/app/src/main/res/layout/fragment_my_team.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail saudia/guessshoot-master/app/src/main/res/layout/fragment_no_user_faind.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/activity_expectations.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/activity_forget_password_1.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/activity_forget_password_4.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/activity_mare.xml" value="0.1" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/item_loading.xml" value="0.11203703703703703" />
+        <entry key="..\:/Projects/Hisham Ismail/guessshoot-master/app/src/main/res/layout/item_my_expections_on_my_account.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_language.xml" value="0.196" />
+        <entry key="app/src/main/res/drawable/ic_shopping_24.xml" value="0.196" />
+        <entry key="app/src/main/res/layout/activity_expectations.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_forget_password_4.xml" value="0.2890625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21965579710144928" />
+        <entry key="app/src/main/res/layout/activity_my_account.xml" value="0.2966485507246377" />
+        <entry key="app/src/main/res/layout/activity_sign_in_activity.xml" value="0.35597826086956524" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.35597826086956524" />
+        <entry key="app/src/main/res/layout/champions.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/fragment_arrange.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/fragment_dawrena.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_my_team.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_no_user_faind.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_team_ranking.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_the_best.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_top_goal_keeper.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_top_scorer.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/more.xml" value="0.35597826086956524" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

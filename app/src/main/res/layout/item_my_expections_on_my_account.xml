@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_marginBottom="@dimen/_5sdp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_First_Team"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:src="@drawable/sfootball">
+
+            </ImageView>
+
+            <TextView
+                android:textSize="@dimen/_10sdp"
+                android:gravity="center"
+                android:id="@+id/text_Name_Of_First_Team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/SALZBURG"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:id="@+id/text_Number_Of_Targets_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/nump"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/text_My_guess1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/nump"
+                android:textColor="@color/prawn"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/text_The_name_of_the_league"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UEFA_CHAMPIONS_LEAGUE"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:textSize="@dimen/_10sdp"
+                android:gravity="center"
+                android:id="@+id/TV_matche_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/prawn"></TextView>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/text_Day_Mhe_Match"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/text_Date_the_match"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday 15-01-2020"
+
+                    android:textColor="@color/white"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_Time_The_Match"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/time"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"></TextView>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id="@+id/Reward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_medal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/shape_cornaer_a"
+                    android:padding="@dimen/_3sdp"
+                    app:srcCompat="@drawable/ic_medal"
+                    tools:ignore="VectorDrawableCompat"></ImageView>
+
+                <TextView
+                    android:id="@+id/text_Reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/Reward"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_Second_Team"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:src="@drawable/lfootball">
+
+            </ImageView>
+
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/_10sdp"
+                android:id="@+id/text_Name_Of_Second_Team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/Liverpool"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:id="@+id/text_Number_Of_Targets_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/nump"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/text_My_guess2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/nump"
+                android:textColor="@color/prawn"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_Shot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/shape_btn"
+        android:gravity="center"
+        android:text="@string/shot"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"></Button>
+    <TextView
+        android:id="@+id/TV_time_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/time_ended"
+        android:textColor="#FF0000"
+        android:textSize="@dimen/_10ssp"></TextView>
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/ic_pathpp">
+
+    </TextView>
+</LinearLayout>

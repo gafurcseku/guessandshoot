@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "746732943636",
+    "firebase_url": "https://guess-shot.firebaseio.com",
+    "project_id": "guess-shot",
+    "storage_bucket": "guess-shot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746732943636:android:24fae5e86780be289c2a01",
+        "android_client_info": {
+          "package_name": "com.hexa.guessandshoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746732943636-r6c990uialqg7cl74v951thd9uvv4ojj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexa.guessandshoot",
+            "certificate_hash": "bbde4da3ff9674372b06e39297a2e4412693f5e6"
+          }
+        },
+        {
+          "client_id": "746732943636-hukq36fh72ed13n479lu5f7m1t3i2kfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC__A80SKyECsxGTKIkRm38q4LLdPxemuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746732943636-hukq36fh72ed13n479lu5f7m1t3i2kfi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746732943636-9fmmp0md71q7a32idv8986qc3guqb0m0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hexa.guessShoot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

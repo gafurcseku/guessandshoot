@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ex_app"
+    android:orientation="vertical"
+    tools:context=".Fragment.FragmentExpectations">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:id="@+id/ImageL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="@dimen/_10sdp"
+
+                    android:layout_marginRight="@dimen/_10sdp">
+
+                    <ImageView
+                        android:alpha="0.3"
+                        android:background="@drawable/shape_border_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <LinearLayout
+
+                        android:gravity="center"
+                        android:paddingVertical="@dimen/_5sdp"
+
+                        android:paddingHorizontal="@dimen/_7sdp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account"
+                            app:civ_border_color="@color/border"
+                            app:civ_border_width="@dimen/_1sdp"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/appicon"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:textColor="@color/border"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:translationX="@dimen/_5sdp"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+
+                android:text="@string/Expectationstitle"
+                android:textColor="@color/prawn"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:id="@+id/notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/iamgenotf"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Notification"
+                        android:textColor="@color/prawn"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_nato" />
+
+
+
+                    <ImageView
+                        android:layout_margin="@dimen/_8sdp"
+                        android:id="@+id/img_seen"
+                        android:visibility="visible"
+                        android:layout_width="@dimen/_7sdp"
+                        android:layout_height="@dimen/_7sdp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/ic_point_red">
+
+                    </ImageView>
+
+
+                </FrameLayout>
+                <ImageView
+                    android:id="@+id/image_more"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Notification"
+                    android:textColor="@color/prawn"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_news"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ly"
+            android:layout_marginVertical="@dimen/_2sdp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/prawn"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mywidget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/blue40"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Simple application that shows how to use marquee, dfdfefwfwfefef fefefefef with a long text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/prawn"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_minus1sdp"
+            android:layout_marginBottom="@dimen/_minus1sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_alignBottom="@id/ly"
+            android:layout_alignTop="@id/ly"
+            android:src="@drawable/ic_for_home_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/item_connection_error"/>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerMyExpectionsMyAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/_140sdp"
+                        android:animateLayoutChanges="false"
+                        android:overScrollMode="always"
+
+                        android:clipToPadding="false">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</LinearLayout>

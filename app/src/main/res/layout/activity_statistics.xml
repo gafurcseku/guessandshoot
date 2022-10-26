@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all_apps"
+    android:orientation="vertical"
+    tools:context=".Fragment.FragmentStatistics"
+    tools:ignore="MissingDefaultResource">
+
+    <androidx.core.widget.NestedScrollView
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/arrow_back"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15ssp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+
+                    android:textStyle="bold"
+                    app:srcCompat="@drawable/ic_right_arrow_1"
+                    tools:ignore="VectorDrawableCompat" />
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/Statistics"
+                    android:textColor="@color/prawn"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/shape_bac_orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/The_Champion_Of_The_Year"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp">
+
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:id="@+id/Linear_account_year2"
+                    android:gravity="center"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_year2"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_first_year2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_first_year2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:id="@+id/Linear_account_year"
+                    android:gravity="center"
+                    android:layout_marginVertical="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_year"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_2">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_first_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_first_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:id="@+id/Linear_account_year3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_year3"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_3">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_first_year3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_first_year3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:id="@+id/Linear_account_year"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/image_account_year"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/name_first_year"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/point_first_year"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:textColor="@color/prawn"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_medal"-->
+            <!--android:layout_width="@dimen/_15ssp"-->
+            <!--android:layout_height="@dimen/_15sdp"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+            <!--</LinearLayout>-->
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/shape_bac_orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/The_Champion_Of_The_Month_this"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:id="@+id/Linrear_account_2_this"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imagethis_account_2"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/namethis_secand_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/pointthis_secand_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:id="@+id/Linrear_account_1_this"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginVertical="@dimen/_15sdp"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imagethis_account_1"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_2">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/namethis_first_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/pointthis_first_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:id="@+id/Linrear_account_3_this"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imagethis_account_3"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+
+                            android:src="@drawable/ic_first_prize_trophy_3">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_this_thaird_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_this_third_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+
+
+
+
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/Linrear_account_1_this"-->
+            <!--android:layout_weight="1"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="@dimen/_20sdp"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/imagethis_account_1"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/namethis_first_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/pointthis_first_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:textColor="@color/prawn"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_marginBottom="@dimen/_5sdp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/Linrear_account_2_this"-->
+
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/imagethis_account_2"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/namethis_secand_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/pointthis_secand_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:textColor="@color/prawn"-->
+
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/Linrear_account_3_this"-->
+
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="@dimen/_20sdp"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/imagethis_account_3"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/name_this_thaird_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/point_this_third_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:text=""-->
+            <!--android:textColor="@color/prawn"-->
+
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/shape_bac_orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/The_Champion_Of_The_Month"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp">
+
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:id="@+id/Linrear_account_2"
+
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_2"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_secand_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_secand_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginVertical="@dimen/_15sdp"
+                    android:id="@+id/Linrear_account_1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_1"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_first_prize_trophy_2">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_first_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_first_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:id="@+id/Linrear_account_3"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+
+                    android:background="@drawable/shape_bac"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_first_prize_trophy_1">
+
+                        </ImageView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/image_account_3"
+                            android:layout_width="48dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_7sdp"
+
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+
+                            android:src="@drawable/ic_first_prize_trophy_3">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/name_thaird_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/point_third_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+
+
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/Points"
+                            android:textColor="@color/prawn"
+                            android:textSize="@dimen/_8sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape_cornaer_a"
+                        android:padding="@dimen/_3sdp"
+
+                        android:src="@drawable/ic_medal"></ImageView>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Reward"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_6ssp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/Linrear_account_1"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="@dimen/_20sdp"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/image_account_1"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+            <!--android:layout_height="@dimen/_45sdp"-->
+
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/name_first_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/point_first_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:textColor="@color/prawn"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+
+            <!--android:id="@+id/Linrear_account_2"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/image_account_2"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/name_secand_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/point_secand_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:textColor="@color/prawn"-->
+
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/Linrear_account_3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="@dimen/_20sdp"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/image_account_3"-->
+            <!--android:layout_width="@dimen/_45sdp"-->
+
+            <!--android:layout_height="@dimen/_45sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/name_thaird_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"-->
+
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/point_third_month"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:text=""-->
+            <!--android:textColor="@color/prawn"-->
+
+            <!--android:textSize="10sp">-->
+
+            <!--</TextView>-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:background="@drawable/shape_cornaer_a"-->
+            <!--android:padding="@dimen/_3sdp"-->
+
+            <!--android:src="@drawable/ic_medal"></ImageView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Reward"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/_6ssp"></TextView>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90sdp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="@string/banner_ad_unit">
+    </com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

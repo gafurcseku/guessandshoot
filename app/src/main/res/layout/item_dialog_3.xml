@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_bac"
+    android:orientation="vertical">
+    <!--android:background="@drawable/shape_bac"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_bac"
+        android:orientation="vertical"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="@dimen/_10sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/shape_cornaer_ecs"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_ecss"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:gravity="center"
+            android:text="@string/PleasePlease"
+            android:textColor="@color/prawn"
+            android:textSize="@dimen/_15ssp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/team_1"
+
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:src="@drawable/lfootball">
+
+                </ImageView>
+
+                <NumberPicker
+
+                    android:theme="@style/AppTheme.Picker"
+                    android:id="@+id/Picker1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp">
+
+                </NumberPicker>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:visibility="gone"
+                    android:id="@+id/recycler_dialog_1"
+
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"></androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/team_2"
+
+
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+
+
+                    android:src="@drawable/lfootball">
+
+                </ImageView>
+                <NumberPicker
+                    android:theme="@style/AppTheme.Picker"
+                    android:id="@+id/Picker2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_dialog_2"
+
+                    android:visibility="gone"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lfootball"
+                    tools:ignore="InvalidId">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:src="@drawable/ic_path_new"></ImageView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,276 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Guess and Shoot</string>
+    <string name="mobile_number" tools:ignore="ExtraTranslation">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="Email">Email</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="shot">SHOOT</string>
+    <string name="Winnerss">Two Winners</string>
+    <string name="Message">Message</string>
+    <string name="phone">5215654856922</string>
+    <string name="emailll">Shimaa zakarya123 @gmail.com</string>
+    <string name="Contact_Form">Contact Form :</string>
+    <string name="Contact_Info">Contact Info :</string>
+    <string name="nump_20">20</string>
+    <string name="slash">/</string>
+    <string name="Year">Year</string>
+    <string name="Years">Year :</string>
+    <string name="MON">MON</string>
+    <string name="continues">Pay Now (5 $)</string>
+    <string name="continues2">Continues</string>
+
+    <string name="Subscribe">Subscribe</string>
+    <string name="message_Subscribe">Start your 1 year Subscribe 5 $</string>
+    <string name="Date_Rankink">17 - 9 -2019</string>
+    <string name="Expectations">Expectations</string>
+    <string name="Total_Points">Total Points :</string>
+    <string name="Number_of_subscribers">Number of subscribers :</string>
+    <string name="Ranking">Ranking</string>
+    <string name="Points">Points</string>
+    <string name="Champions">Champions</string>
+    <string name="Statistics">Statistics</string>
+    <string name="More">More</string>
+    <string name="Ccv_Number">Ccv Number</string>
+    <string name="Expired_Date">Expired Date</string>
+    <string name="Your_Subscription_Will_Be_An_Annual_Package">Your Subscription Will Be An Annual Package</string>
+    <string name="Payment_Options">Payment Options</string>
+    <string name="Paypal_Info">Paypal Info</string>
+    <string name="Please_Insert_Your_Paypal_ID">Please Insert Your Paypal ID</string>
+    <string name="Neteller_Info">Neteller Info</string>
+    <string name="SALZBURG">SALZBURG</string>
+    <string name="The_Fastest_Available">I Will Reply To You The Fastest
+  Available Time</string>
+    <string name="Thankyou">Thank you</string>
+    <string name="ContactInfo">Contact Info :</string>
+    <string name="Liverpool">Liverpool</string>
+    <string name="Reward">Reward</string>
+    <string name="Per_group">Per group</string>
+    <string name="ContactForm">Contact Form :</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="nump">3</string>
+    <string name="time">9 : 55 </string>
+    <string name="Date">10-12 -2019</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="UEFA_CHAMPIONS_LEAGUE">UEFA CHAMPIONS LEAGUE</string>
+    <string name="confirm">Confirm</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="edite_my_account"> Edit My account</string>
+    <string name="you_can_create_a_new_account">You Can Create A New Account Now !</string>
+    <string name="enter_as_visitor">Enter As Visitor</string>
+    <string name="name">Name</string>
+    <string name="Terms_And_Conditions">Terms And Conditions</string>
+    <string name="text_about_us">Contrary to popular belief, Lorem Ipsum is not simpl rand text. It has roots in a piece of classical Latin literature from 45 BC, making .
+it over 2000 years old. Richard McClintock, a nLatin profess at Hampden-Sydney College in nb Virginia, looked up one of d the more obscure.</string>
+    <string name="Invite_Friends">Invite Friends</string>
+    <string name="Choose_Your_Way_To_Receive_Your_Money">Please Choose Your Way To Receive Your Money On</string>
+
+    <string name="visa_info">Visa Info</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="number_on_card">Number on card</string>
+    <string name="send">Send</string>
+    <string name="time_ended">Shoot Time is Over</string>
+    <string name="Please_insert_your_visa_informations">Please Insert Your Visa Informations</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="total_cash">Total Cash</string>
+    <string name="total_points">Total Points</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="i_agree_to_the">I Agree To The</string>
+    <string name="terms">Terms</string>
+    <string name="and">And</string>
+    <string name="please_insert_the_code_that_sent_on_email_address">Please Insert The Code That Sent On Email Address</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="submit">Submit</string>
+    <string name="Your_new_password_has_been_updated_successfully">Your new password has been updated successfully</string>
+    <string name="please_insert_your_new_password">Please Insert Your New  Password</string>
+    <string name="please_insert_the_code">Please Insert The Code That Sent On Your Email Address</string>
+    <string name="please_insert_email_address">Please Insert Email Address</string>
+    <string name="conditions">Conditions</string>
+    <string name="get_started">Get started</string>
+    <string name="created">Your Account has been created successfully</string>
+    <string name="verify_your_account">Verify your Account</string>
+    <string name="you_can_sign_in_with_an_existed_account">You Can Sign In With An Existed Account !</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="message_Withdrawal">please choose your way to receive your money on</string>
+
+
+    <string name="ThankYou">Thank You</string>
+    <string name="ReplyThankYou">Thanks for Your message ,  we Will Reply To You as soon as possible</string>
+
+    <string name="About_Us">About Us</string>
+    <string name="News">News</string>
+    <string name="rateApp">Rate App</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="are_you_logout">Do you want to sign out?</string>
+    <string name="The_Champion_Of_The_Year">The Champions Of The Year</string>
+    <string name="The_Champion_Of_The_Month">The Champions Of The last Month</string>
+    <string name="The_Champion_Of_The_Month_this">The Champions Of The Month</string>
+    <string name="Expectationstitle">Expectations</string>
+    <string name="Notification_title">Notifications</string>
+    <string name="Points_t">Points /</string>
+    <string name="All_Winners">All Winners</string>
+    <string name="Teamgues">Team guess</string>
+    <string name="Winners">One Winner</string>
+    <string name="PleasePlease">Please Insert Your Expectation</string>
+    <string name="My_accountTitle">My account</string>
+    <string name="full_name">full Name</string>
+    <string name="quadrilateral_name">Quadrilateral Name</string>
+    <string name="mobile_vis">mobile</string>
+    <string name="country">country</string>
+    <string name="city">city</string>
+    <string name="Sign_Out">Sign Out</string>
+    <string name="Change_Language">Change Language</string>
+
+    <string name="change_Lang">Do you want to change the language to Arabic?</string>
+    <string name="payPal">payPal</string>
+    <string name="Visa">Visa</string>
+    <string name="western_union">western union</string>
+    <string name="stc">Stc Pay</string>
+    <string name="stc_message">For subscribers of the Kingdom of Saudi Arabia</string>
+    <string name="Please_Insert_Your_Info">Please Insert Your Info</string>
+    <string name="Money_sent_to">Your Money Will Be Sent To Your Account</string>
+    <string name="Money_sent_value">Your Money Amount Is</string>
+
+
+    <string name="moneysent">The money has been sent</string>
+    <string name="ifmoneysent">you can only withdraw when the Total Cash is $ 20 or more</string>
+    <string name="Please_agree">Please agree to the usage policy</string>
+    <string name="pleaseLogin">Please Login</string>
+    <string name="Champin_title">Please choose only one club for the champion</string>
+
+
+    <string name="Ok">Ok</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="message_error">Username must be 4 to 15 characters long</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="Phone_number_must">Phone number must be greater than 8 and less than 12</string>
+
+    <string name="enter_password">Enter Password</string>
+    <string name="message_password">Password must be 6 or more digests</string>
+    <string name="message_dune">The prediction has been entered successfully</string>
+
+    <string name="invalid_email_address">E-mail address is not valid</string>
+    <string name="payment_message">Please choose a payment method</string>
+    <string name="message">All fields are required</string>
+    <string name="and2">&amp;</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="select_lang">Select Language</string>
+    <string name="message_signup">Thank you for joining us</string>
+    <string name="cancel">cancel</string>
+    <string name="message_activated">The account is not activated</string>
+    <string name="message_password2">The password and password must be the same</string>
+
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="message_exit">Please click BACK again to exit</string>
+    <string name="monthPoints">Month Points</string>
+    <string name="Passwords_do_not_match">Passwords do not match</string>
+    <string name="History">History</string>
+    <string name="filter_message">Sort The Matches You Won \n To Vote On The Score</string>
+    <string name="Month">Month :</string>
+    <string name="Filter">Filter</string>
+    <string name="SHOOT_Agein">EDIT SHOOT</string>
+
+
+    <string name="GoalKeeper_title">Please choose only one Player for the Goal Keeper</string>
+    <string name="Scorer_title">Please choose only one Player for Scorer</string>
+
+    <string name="champion_winners">Winners</string>
+    <string name="top_score">The Best</string>
+    <string name="top_scorer">Top Scorer</string>
+    <string name="goal_keeper">GoalKeeper</string>
+    <string name="championship">Championship</string>
+    <string name="champion">Champion</string>
+    <string name="winner">Winner</string>
+    <string name="scorers_title">Scorers</string>
+    <string name="club">Club</string>
+    <string name="winner_type">Winner Type</string>
+    <string name="winner_filter_message">Sort of Champion By Year</string>
+    <string name="result_sort_by">Result Sort By</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="isFirstTime">show_tutorial</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="rewards">Rewards</string>
+    <string name="tut_rewards_desc">Match\'s cash prize and points.</string>
+    <string name="tut_shot_desc">Guess the match result</string>
+    <string name="network_connection_error">Network Connection Error</string>
+
+    <string name="tut_profile_desc">To know your balance of points , prizes and all expectations.</string>
+
+    <string name="tut_expectaions_desc">Football fixtures and results</string>
+    <string name="tut_top_score_desc">Select your Champion scorer and best goalkeeper.</string>
+    <string name="tut_champion_desc">Select your champion team.</string>
+    <string name="tut_static_desc">The Champions of the current month and season, Constantly update.</string>
+    <string name="tut_dawrtena_desc">Be the champion of Dawrena by collecting points with your team.</string>
+    <string name="tut_More_desc">Explained of the application</string>
+
+    <string name="tut_news_desc">To know the points and rewards you\'ve got.</string>
+    <string name="tut_winner_desc">To know the winners of championships , scorers and goalkeepers.</string>
+    <string name="tut_edit_profile_desc">Edit your profile picture and information.</string>
+    <string name="profile_need_login">Please Login Before Access Profile Page</string>
+    <string name="notifications_need_login">Please Login Before Access Notifications Page</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="dueDate">Due Date:</string>
+    <string name="showTut">Show Tutorial</string>
+    <string name="my_expectations">My Expectations</string>
+    <string name="retry">Retry</string>
+    <string name="Choose_Championship">Choose The Championship</string>
+    <string name="save">save</string>
+    <string name="Arrange">Rank it</string>
+    <string name="selectClub">select Club</string>
+    <string name="All_clubs_identified">All clubs must be identified</string>
+    <string name="Predict_teams">Predict the arrangement of teams and national teams</string>
+    <string name="add_new_team">Add New Team</string>
+    <string name="enter_the_code">Enter The Code</string>
+    <string name="random_entry">Random Entry</string>
+    <string name="team_name">Team Name</string>
+    <string name="note">Note :</string>
+    <string name="create_team">Create team</string>
+    <string name="dawrena">Dawrena</string>
+    <string name="team_code">Team code</string>
+    <string name="enter">Enter</string>
+    <string name="Your_Team">Your Team</string>
+    <string name="Team_Ranking">Team Ranking</string>
+    <string name="enterCode">Enter Code</string>
+    <string name="enterImage">Enter Image</string>
+    <string name="team_details">Team details</string>
+    <string name="level">Level:</string>
+    <string name="members">members</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="successMessage1">Succeeded</string>
+    <string name="successMessage2">Team has been added</string>
+    <string name="messageCopy">Code copied</string>
+    <string name="share_subject">share subject</string>
+    <string name="share_using">share using</string>
+    <string name="leave">leave</string>
+    <string name="leaveConfarim">Are you sure you want to leave the team</string>
+    <string name="edit">Edit</string>
+    <string name="login_message">Create a team or join a team Please log in or create a new account</string>
+    <string name="delete_message">Are you sure you want to remove this member from the team</string>
+    <string name="join_message">The time to create a team and join is over</string>
+    <string name="faq">FAQ</string>
+    <string name="points">Points:</string>
+    <string name="code">Code:&#160;</string>
+    <string name="private2">Private</string>
+    <string name="banner_ad_unit" translatable="false">ca-app-pub-4413541333763130/5115041050</string>
+    <string name="full_ad_unit" translatable="false">ca-app-pub-4413541333763130/4460434937</string>
+    <string name="ad_unit" translatable="false">ca-app-pub-4413541333763130~4734060895</string>
+    <string name="remove_ad">Remove Ads</string>
+    <string name="add_subtitle">Remove all ads for a small yearly fee 5$</string>
+    <string name="add_description">Subscribe to "Remove Ads - Yearly Subscription through the app. If you choose to subscribe, you will be charged a yearly subscription fee according to your country. The subscription fee will be shown in the app before you complete the payment. Your subscription will automatically renew every year at the then-current subscription fee unless auto-renew is turned off at least 24 hours before the end of the then-current subscription period. Your iTunes account will automatically be charged within 24 hours prior to the end of the then-current period. The subscription fee will be charged yearly. You can turn off auto-renew at any time from your iTunes account settings.</string>
+</resources>

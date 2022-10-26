@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="@dimen/_30sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/shape_cornaer_ecs">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_ecss"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageView>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_btn_new_dialogs"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/add_new_team"
+            android:textColor="@color/prawn"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"/>
+        <FrameLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_baseline_image_24"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/image_account"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                tools:ignore="VectorDrawableCompat"
+                />
+
+            <LinearLayout
+                android:background="@drawable/shape_gradint_blue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+
+                android:id="@+id/img_edit_Image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_7sdp"
+
+                android:textSize="22dp"
+                android:layout_gravity="bottom|center"
+
+                android:src="@drawable/ic_path"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+
+        <EditText
+            android:id="@+id/ED_name"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:hint="@string/team_name"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/blue40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_gravity="start"
+            android:id="@+id/ch_privet"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/private2"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"/>
+        <TextView
+            android:id="@+id/TV_Note"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
+
+
+        <ProgressBar
+            android:layout_marginHorizontal="@dimen/_32sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/progress"
+            android:progress="0"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp"/>
+        <Button
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/shape_btn"
+            android:gravity="center"
+            android:text="@string/create_team"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
