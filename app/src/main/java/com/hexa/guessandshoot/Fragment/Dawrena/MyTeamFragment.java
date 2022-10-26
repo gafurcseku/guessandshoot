@@ -259,7 +259,7 @@ public class MyTeamFragment extends Fragment {
                             String code = responseBody.getString("code");
 
 
-                            if (status.equals("true")) {
+//                            if (status.equals("true")) {
 
                                 String news = responseBody.getString("Leagues");
                                 JSONObject jsonArray = new JSONObject(news);
@@ -268,9 +268,9 @@ public class MyTeamFragment extends Fragment {
                                 Gson gson = new Gson();
                                 league = gson.fromJson(mJson, League.class);
                                 setDate();
-                            } else {
-
-                            }
+//                            } else {
+//
+//                            }
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -287,7 +287,7 @@ public class MyTeamFragment extends Fragment {
 
 //                webServise.loading(SplashScreenActivity.this, false);
 
-                ApiService.ErrorResponse(getActivity(), volleyError);
+               // ApiService.ErrorResponse(getActivity(), volleyError);
             }
         }) {
 

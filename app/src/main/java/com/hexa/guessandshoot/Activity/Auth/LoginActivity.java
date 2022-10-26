@@ -174,12 +174,10 @@ public class LoginActivity extends AppCompatActivity implements PurchasesUpdated
             ApiService.isUserHasSubscription(activity, new onCheck() {
                 @Override
                 public void onCheck(boolean isSubscribe,String orderId) {
-                    // if (b){
+
                     Log.e("type",new Time().toString()) ;
                     Login_method(email, password ,isSubscribe,orderId);
-//                    }else {
-//                        showNotActive("");
-//                    }
+
 
                 }
             }) ;

@@ -259,9 +259,7 @@ public class ApiService {
 
                         Log.d("billingprocess","purchasesResult.getPurchasesList():"+list);
 
-                        //                        //here you can pass the user to use the app because he has an active subscription
-                        //                        Intent myIntent=new Intent(context,MainActivity.class);
-                        //                        startActivity(myIntent);
+
                         boolean isPrshees = billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK && !Objects.requireNonNull(list).isEmpty();
 
                         onCheck.onCheck(isPrshees,isPrshees?getOrderId(list.get(0).getOriginalJson()):"");
@@ -324,27 +322,30 @@ public class ApiService {
                     String code = response.getString("code");
 
 
-                    if (status.equals("true")) {
+//                    if (status.equals("true")) {
                         if (url.equals(ApiService.leaveLeague)){
                             Settings.setUserStatus("0");
                         }else if (url.equals(ApiService.deleteUser)){
 
                         }else {
-                            String news = response.getString("Leagues");
-                            JSONArray jsonArray = new JSONArray(news);
-                            JsonParser parser = new JsonParser();
-                            JsonElement mJson = parser.parse(jsonArray.getJSONObject(0).toString());
-                            Gson gson = new Gson();
-                            League  league = gson.fromJson(mJson, League.class);
-                            Settings.setUserStatus(league.getId()+"");
+                            if(response.has("Leagues")){
+                                String news = response.getString("Leagues");
+                                JSONArray jsonArray = new JSONArray(news);
+                                JsonParser parser = new JsonParser();
+                                JsonElement mJson = parser.parse(jsonArray.getJSONObject(0).toString());
+                                Gson gson = new Gson();
+                                League  league = gson.fromJson(mJson, League.class);
+                                Settings.setUserStatus(league.getId()+"");
+                            }else{
+                                Settings.setUserStatus("0");
+                            }
+
 
                         }
 
 
                         dCallBack.Result("100","",true );
-                    }else{
-                        Toast.makeText(activity, response.getString("message")+"", Toast.LENGTH_SHORT).show();
-                    }
+//                    }
                 } catch (Exception e) {
                     Log.e("Exception",e.toString());
                     try {

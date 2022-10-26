@@ -1,5 +1,7 @@
 package com.hexa.guessandshoot;
 
+import static com.hexa.guessandshoot.Settings.ApiService.isUserHasSubscription;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -47,7 +49,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.hexa.guessandshoot.Settings.ApiService.isUserHasSubscription;
 
 public class SplashActivity extends AppCompatActivity {
     Handler handler;

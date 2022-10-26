@@ -450,21 +450,21 @@ public class PaginationAdapter extends RecyclerView.Adapter<BaseViewHolder> {
             Picker1.getValue();
             Picker2.getValue();
 
-
+            userGuess(id, Picker1.getValue() + "", Picker2.getValue() + "", postion, holder ,true);
 
             Log.e("type",new Time().toString()) ;
-            ApiService.isUserHasSubscription(activity, new onCheck() {
-                @Override
-                public void onCheck(boolean b,String orderId) {
-                   // if (b){
-                        Log.e("type",new Time().toString()) ;
-                        userGuess(id, Picker1.getValue() + "", Picker2.getValue() + "", postion, holder ,b);
-//                    }else {
-//                        showNotActive("");
-//                    }
-
-                }
-            }) ;
+//            ApiService.isUserHasSubscription(activity, new onCheck() {
+//                @Override
+//                public void onCheck(boolean b,String orderId) {
+//                   // if (b){
+//                        Log.e("type",new Time().toString()) ;
+//
+////                    }else {
+////                        showNotActive("");
+////                    }
+//
+//                }
+//            }) ;
 
         });
         img_close.setOnClickListener(v -> popupWindow.dismiss());
@@ -550,7 +550,7 @@ public class PaginationAdapter extends RecyclerView.Adapter<BaseViewHolder> {
                         String code = responseBody.getString("code");
 
 
-                        if (status.equals("true")) {
+//                        if (status.equals("true")) {
                             items.get(postion).getUser_guess().clear();
                             items.get(postion).getUser_guess().add(home_goals);
                             items.get(postion).getUser_guess().add(away_goals);
@@ -562,14 +562,14 @@ public class PaginationAdapter extends RecyclerView.Adapter<BaseViewHolder> {
                             holder.btn_Shot.setTextColor(Color.BLACK);
                             popupWindow.dismiss();
                             Toast.makeText(activity, activity.getResources().getString(R.string.message_dune) + "", Toast.LENGTH_SHORT).show();
-                        } else {
-                            if (code.equals("203")){
-                               showNotActive(responseBody.getString("message"));
-                            }else {
-                                Toast.makeText(activity, responseBody.getString("message"), Toast.LENGTH_SHORT).show();
-
-                            }
-                        }
+//                        } else {
+//                            if (code.equals("203")){
+//                               showNotActive(responseBody.getString("message"));
+//                            }else {
+//                                Toast.makeText(activity, responseBody.getString("message"), Toast.LENGTH_SHORT).show();
+//
+//                            }
+//                        }
 
                     } catch (JSONException e) {
                         e.printStackTrace();

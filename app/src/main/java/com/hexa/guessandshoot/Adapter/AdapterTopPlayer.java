@@ -136,13 +136,14 @@ public class AdapterTopPlayer extends RecyclerView.Adapter<AdapterTopPlayer.View
                 ApiService.loading((Activity) activity, false);
                 String status = responseBody.getString("status");
                 String message = responseBody.getString("message");
-                if (status.equals("true")) {
-                    //Init New Chosen
-                    initNewChosen(position, message);
-                } else {
-                   // Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
-                    Settings.alertDialog(activity, message);
-                }
+                initNewChosen(position, message);
+//                if (status.equals("true")) {
+//                    //Init New Chosen
+//                    initNewChosen(position, message);
+//                } else {
+//                   // Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
+//                    Settings.alertDialog(activity, message);
+//                }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -174,7 +175,7 @@ public class AdapterTopPlayer extends RecyclerView.Adapter<AdapterTopPlayer.View
         //Refresh RecycleView
         REF();
         //Show Message to User
-        Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
+       // Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
     }
 
 }

@@ -304,22 +304,25 @@ public class ArrangeChampionshipActivity extends AppCompatActivity {
                 String status = responseBody.getString("status");
                 String message = responseBody.getString("message");
 
-                if (status.equals("true")) {
+//                if (status.equals("true")) {
                     //Init New Chosen
+                if(responseBody.has("champion")){
                     String champions = responseBody.getString("champion");
-                        JsonParser parser = new JsonParser();
-                        JsonElement mJson = parser.parse(champions);
-                        Gson gson = new Gson();
-                        Db_championsGroup db_champions = gson.fromJson(mJson, Db_championsGroup.class);
-                        Hawk.put("object",db_champions) ;
-                       Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-                       onBackPressed();
-
-
-                } else {
-                   // Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-                    Settings.alertDialog(this, message);
+                    JsonParser parser = new JsonParser();
+                    JsonElement mJson = parser.parse(champions);
+                    Gson gson = new Gson();
+                    Db_championsGroup db_champions = gson.fromJson(mJson, Db_championsGroup.class);
+                    Hawk.put("object",db_champions) ;
                 }
+                onBackPressed();
+                      // Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+
+
+
+//                } else {
+//                   // Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+//                    Settings.alertDialog(this, message);
+//                }
             } catch (JSONException e) {
                 e.printStackTrace();
             }

@@ -130,7 +130,7 @@ public class Adapter_team extends RecyclerView.Adapter<Adapter_team.ViewHolder> 
                             String code = responseBody.getString("code");
 
 
-                            if (status.equals("true")) {
+//                            if (status.equals("true")) {
 
 
                                 for (int i = 0; i < list.size(); i++) {
@@ -145,14 +145,14 @@ public class Adapter_team extends RecyclerView.Adapter<Adapter_team.ViewHolder> 
 
                                 REF();
 
-                                Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
+                               // Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
 
-                            } else {
-                               // Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
-                                Settings.alertDialog(activity, message);
-
-
-                            }
+//                            } else {
+//                               // Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
+//                                Settings.alertDialog(activity, message);
+//
+//
+//                            }
 
                         } catch (JSONException e) {
                             e.printStackTrace();
